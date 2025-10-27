@@ -688,6 +688,24 @@
       "locale": null
     },
     {
+      "documentId": "ln08whlpu3euixc0bb0rdzw9",
+      "action": "plugin::strapi-import-export.export",
+      "actionParameters": {},
+      "subject": null,
+      "properties": {},
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "yotgv1cf1w7bj1u2g2nz6cob",
+      "action": "plugin::strapi-import-export.import",
+      "actionParameters": {},
+      "subject": null,
+      "properties": {},
+      "conditions": [],
+      "locale": null
+    },
+    {
       "documentId": "x7b9tdwhutv5uygrz1tj4cxb",
       "action": "plugin::upload.assets.copy-link",
       "actionParameters": {},
