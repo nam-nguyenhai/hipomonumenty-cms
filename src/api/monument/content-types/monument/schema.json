@@ -31,7 +31,7 @@
           "localized": true
         }
       },
-      "required": true
+      "required": false
     },
     "shortTitle": {
       "type": "string",
@@ -58,14 +58,14 @@
       },
       "enum": [
         "Socha",
-        "Sportovište",
+        "Sportoviště",
         "Budova",
         "Freska",
         "Reliéf"
       ]
     },
     "description": {
-      "type": "string",
+      "type": "text",
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -119,6 +119,31 @@
           "localized": true
         }
       }
+    },
+    "image": {
+      "type": "media",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "carousel": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.slider",
+      "repeatable": false
     }
   }
 }

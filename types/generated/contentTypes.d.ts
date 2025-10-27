@@ -525,10 +525,22 @@ export interface ApiMonumentMonument extends Struct.CollectionTypeSchema {
           localized: true;
         };
       }>;
+    carousel: Schema.Attribute.Component<'shared.slider', false> &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    description: Schema.Attribute.String &
+    description: Schema.Attribute.Text &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
@@ -565,7 +577,6 @@ export interface ApiMonumentMonument extends Struct.CollectionTypeSchema {
         };
       }>;
     slug: Schema.Attribute.String &
-      Schema.Attribute.Required &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
@@ -579,7 +590,7 @@ export interface ApiMonumentMonument extends Struct.CollectionTypeSchema {
         };
       }>;
     type: Schema.Attribute.Enumeration<
-      ['Socha', 'Sportovi\u0161te', 'Budova', 'Freska', 'Reli\u00E9f']
+      ['Socha', 'Sportovi\u0161t\u011B', 'Budova', 'Freska', 'Reli\u00E9f']
     > &
       Schema.Attribute.SetPluginOptions<{
         i18n: {

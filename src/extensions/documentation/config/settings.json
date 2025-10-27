@@ -1,0 +1,5 @@
+{
+    "x-strapi-config": {
+      "plugins": ["monument"]
+    }
+  }
