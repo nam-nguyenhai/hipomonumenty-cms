@@ -1,0 +1,49 @@
+{
+  "documentId": "y6jyc2ymkrowsmblg31iv5sk",
+  "name": "Public",
+  "description": "Default role given to unauthenticated user.",
+  "type": "public",
+  "locale": null,
+  "permissions": [
+    {
+      "documentId": "k5uu5632gqefa751875fvscm",
+      "action": "api::monument.monument.find",
+      "locale": null
+    },
+    {
+      "documentId": "uwd2deyhco2nc9bqsybzzzd0",
+      "action": "plugin::users-permissions.auth.callback",
+      "locale": null
+    },
+    {
+      "documentId": "xa7fpcvrre3w7v4rjz26rex2",
+      "action": "plugin::users-permissions.auth.connect",
+      "locale": null
+    },
+    {
+      "documentId": "k6dl5d7jhmrvsbdkrjrtkixu",
+      "action": "plugin::users-permissions.auth.emailConfirmation",
+      "locale": null
+    },
+    {
+      "documentId": "lena76h09b809jnri84u0eki",
+      "action": "plugin::users-permissions.auth.forgotPassword",
+      "locale": null
+    },
+    {
+      "documentId": "za9fw3zkexcnoxbs0w22vvdn",
+      "action": "plugin::users-permissions.auth.register",
+      "locale": null
+    },
+    {
+      "documentId": "wtqi80l58is9sodvxn2sz2pr",
+      "action": "plugin::users-permissions.auth.resetPassword",
+      "locale": null
+    },
+    {
+      "documentId": "oztycja564tycj2utjk3132f",
+      "action": "plugin::users-permissions.auth.sendEmailConfirmation",
+      "locale": null
+    }
+  ]
+}
