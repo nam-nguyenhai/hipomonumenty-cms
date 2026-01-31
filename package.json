@@ -10,12 +10,14 @@
     "dev": "strapi develop",
     "develop": "strapi develop",
     "seed:example": "node ./scripts/seed.js",
+    "seed:monuments": "node ./scripts/seed-monuments.js",
     "start": "strapi start",
     "strapi": "strapi",
     "upgrade": "npx @strapi/upgrade latest",
     "upgrade:dry": "npx @strapi/upgrade latest --dry"
   },
   "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^6.0.3",
     "@strapi/plugin-cloud": "5.29.0",
     "@strapi/plugin-users-permissions": "5.29.0",
     "@strapi/strapi": "5.29.0",
@@ -28,7 +30,8 @@
     "strapi-import-export": "^0.0.1",
     "strapi-plugin-config-sync": "^3.1.2",
     "strapi-plugin-gen-types": "^0.0.15",
-    "styled-components": "^6.0.0"
+    "styled-components": "^6.0.0",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@types/node": "^20",

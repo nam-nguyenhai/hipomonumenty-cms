@@ -72,6 +72,7 @@ export interface Monument {
   availableDescription?: string;
   image?: Media | null;
   carousel?: SharedSlider | null;
+  content?: any;
 };
 
 export interface Media {
