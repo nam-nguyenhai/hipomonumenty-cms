@@ -215,6 +215,20 @@
           "sortable": false
         }
       },
+      "content": {
+        "edit": {
+          "label": "Detailní popis",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "content",
+          "searchable": false,
+          "sortable": false
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -357,6 +371,12 @@
         [
           {
             "name": "carousel",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "content",
             "size": 12
           }
         ]

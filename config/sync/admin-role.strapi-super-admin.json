@@ -6,139 +6,7 @@
   "locale": null,
   "permissions": [
     {
-      "documentId": "jwh0q193yoyczujfte7lwkfq",
-      "action": "plugin::content-manager.explorer.create",
-      "actionParameters": {},
-      "subject": "api::about.about",
-      "properties": {
-        "fields": [
-          "title",
-          "blocks"
-        ]
-      },
-      "conditions": [],
-      "locale": null
-    },
-    {
-      "documentId": "c8dkwmlacoljucc39pm7gkb0",
-      "action": "plugin::content-manager.explorer.delete",
-      "actionParameters": {},
-      "subject": "api::about.about",
-      "properties": {},
-      "conditions": [],
-      "locale": null
-    },
-    {
-      "documentId": "x2b94o8ynakgz17y3t5uyr11",
-      "action": "plugin::content-manager.explorer.publish",
-      "actionParameters": {},
-      "subject": "api::about.about",
-      "properties": {},
-      "conditions": [],
-      "locale": null
-    },
-    {
-      "documentId": "j55iptmd5v4o3tksm39ymbvg",
-      "action": "plugin::content-manager.explorer.read",
-      "actionParameters": {},
-      "subject": "api::about.about",
-      "properties": {
-        "fields": [
-          "title",
-          "blocks"
-        ]
-      },
-      "conditions": [],
-      "locale": null
-    },
-    {
-      "documentId": "ba8aio0v3l1yy3uy7thtfd23",
-      "action": "plugin::content-manager.explorer.update",
-      "actionParameters": {},
-      "subject": "api::about.about",
-      "properties": {
-        "fields": [
-          "title",
-          "blocks"
-        ]
-      },
-      "conditions": [],
-      "locale": null
-    },
-    {
-      "documentId": "rcda1qujfiugkgjyiwccsvhr",
-      "action": "plugin::content-manager.explorer.create",
-      "actionParameters": {},
-      "subject": "api::global.global",
-      "properties": {
-        "fields": [
-          "siteName",
-          "favicon",
-          "siteDescription",
-          "defaultSeo.metaTitle",
-          "defaultSeo.metaDescription",
-          "defaultSeo.shareImage"
-        ]
-      },
-      "conditions": [],
-      "locale": null
-    },
-    {
-      "documentId": "hzryz8cqnd7mpasan1s1losc",
-      "action": "plugin::content-manager.explorer.delete",
-      "actionParameters": {},
-      "subject": "api::global.global",
-      "properties": {},
-      "conditions": [],
-      "locale": null
-    },
-    {
-      "documentId": "uidjfj6pegocp467lebfxzbf",
-      "action": "plugin::content-manager.explorer.publish",
-      "actionParameters": {},
-      "subject": "api::global.global",
-      "properties": {},
-      "conditions": [],
-      "locale": null
-    },
-    {
-      "documentId": "t5zpq9a55q8pp1an3gmsssax",
-      "action": "plugin::content-manager.explorer.read",
-      "actionParameters": {},
-      "subject": "api::global.global",
-      "properties": {
-        "fields": [
-          "siteName",
-          "favicon",
-          "siteDescription",
-          "defaultSeo.metaTitle",
-          "defaultSeo.metaDescription",
-          "defaultSeo.shareImage"
-        ]
-      },
-      "conditions": [],
-      "locale": null
-    },
-    {
-      "documentId": "ublterf3ukxllz1xze5cu59l",
-      "action": "plugin::content-manager.explorer.update",
-      "actionParameters": {},
-      "subject": "api::global.global",
-      "properties": {
-        "fields": [
-          "siteName",
-          "favicon",
-          "siteDescription",
-          "defaultSeo.metaTitle",
-          "defaultSeo.metaDescription",
-          "defaultSeo.shareImage"
-        ]
-      },
-      "conditions": [],
-      "locale": null
-    },
-    {
-      "documentId": "cat5r18nsaojyqwbi2ghk6oj",
+      "documentId": "akz4lwc13edcfh778iyg4ej5",
       "action": "plugin::content-manager.explorer.create",
       "actionParameters": {},
       "subject": "api::monument.monument",
@@ -157,7 +25,8 @@
           "available",
           "availableDescription",
           "image",
-          "carousel.files"
+          "carousel.files",
+          "content"
         ],
         "locales": [
           "en",
@@ -196,7 +65,7 @@
       "locale": null
     },
     {
-      "documentId": "a7zwwt1jkn8g3c4urxcm2ukn",
+      "documentId": "h07iu8vk0k6vekf5vr3aa5v3",
       "action": "plugin::content-manager.explorer.read",
       "actionParameters": {},
       "subject": "api::monument.monument",
@@ -215,7 +84,8 @@
           "available",
           "availableDescription",
           "image",
-          "carousel.files"
+          "carousel.files",
+          "content"
         ],
         "locales": [
           "en",
@@ -226,7 +96,7 @@
       "locale": null
     },
     {
-      "documentId": "xrntsjv2zhoq345ylxqwo1g3",
+      "documentId": "tg8zet4ngddp1soih1ov96m1",
       "action": "plugin::content-manager.explorer.update",
       "actionParameters": {},
       "subject": "api::monument.monument",
@@ -245,7 +115,8 @@
           "available",
           "availableDescription",
           "image",
-          "carousel.files"
+          "carousel.files",
+          "content"
         ],
         "locales": [
           "en",

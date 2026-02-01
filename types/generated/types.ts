@@ -27,30 +27,6 @@ export interface SharedSlider {
   files?: Media[] | null;
 };
 
-export interface About {
-  id?: number;
-  documentId?: string;
-  createdAt?: Date | string;
-  updatedAt?: Date | string;
-  publishedAt?: Date | string;
-  locale?: string | null;
-  title?: string;
-  blocks?: any;
-};
-
-export interface Global {
-  id?: number;
-  documentId?: string;
-  createdAt?: Date | string;
-  updatedAt?: Date | string;
-  publishedAt?: Date | string;
-  locale?: string | null;
-  siteName: string;
-  favicon?: Media | null;
-  siteDescription: string;
-  defaultSeo?: SharedSeo | null;
-};
-
 export interface Monument {
   id?: number;
   documentId?: string;
