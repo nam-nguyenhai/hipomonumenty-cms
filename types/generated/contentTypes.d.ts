@@ -560,6 +560,35 @@ export interface ApiMonumentMonument extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiRecommendedMonumentRecommendedMonument
+  extends Struct.SingleTypeSchema {
+  collectionName: 'recommended_monuments';
+  info: {
+    displayName: 'Doporu\u010Den\u00E9 monumenty';
+    pluralName: 'recommended-monuments';
+    singularName: 'recommended-monument';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::recommended-monument.recommended-monument'
+    > &
+      Schema.Attribute.Private;
+    monuments: Schema.Attribute.Relation<'oneToMany', 'api::monument.monument'>;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface PluginContentReleasesRelease
   extends Struct.CollectionTypeSchema {
   collectionName: 'strapi_releases';
@@ -1071,6 +1100,7 @@ declare module '@strapi/strapi' {
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'admin::user': AdminUser;
       'api::monument.monument': ApiMonumentMonument;
+      'api::recommended-monument.recommended-monument': ApiRecommendedMonumentRecommendedMonument;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;
       'plugin::i18n.locale': PluginI18NLocale;

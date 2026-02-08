@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "recommended_monuments",
+  "info": {
+    "singularName": "recommended-monument",
+    "pluralName": "recommended-monuments",
+    "displayName": "Doporučené monumenty"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "monuments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::monument.monument"
+    }
+  }
+}

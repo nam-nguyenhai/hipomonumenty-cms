@@ -51,6 +51,16 @@ export interface Monument {
   content?: any;
 };
 
+export interface RecommendedMonument {
+  id?: number;
+  documentId?: string;
+  createdAt?: Date | string;
+  updatedAt?: Date | string;
+  publishedAt?: Date | string;
+  locale?: string | null;
+  monuments?: Monument[] | null;
+};
+
 export interface Media {
   id: number;
   name: string;

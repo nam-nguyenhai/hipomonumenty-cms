@@ -127,6 +127,63 @@
       "locale": null
     },
     {
+      "documentId": "jwr5517uoniuwjpge8fqayo4",
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::recommended-monument.recommended-monument",
+      "properties": {
+        "fields": [
+          "monuments"
+        ]
+      },
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "rml8eh2mdg9o38j0gal775ka",
+      "action": "plugin::content-manager.explorer.delete",
+      "actionParameters": {},
+      "subject": "api::recommended-monument.recommended-monument",
+      "properties": {},
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "ajk3d7qb4j3sbn2uzugaah6c",
+      "action": "plugin::content-manager.explorer.publish",
+      "actionParameters": {},
+      "subject": "api::recommended-monument.recommended-monument",
+      "properties": {},
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "vhxmbw6j8be79fuazn5a8reo",
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::recommended-monument.recommended-monument",
+      "properties": {
+        "fields": [
+          "monuments"
+        ]
+      },
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "q3zwjcfgcdi91vilbskwwkul",
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::recommended-monument.recommended-monument",
+      "properties": {
+        "fields": [
+          "monuments"
+        ]
+      },
+      "conditions": [],
+      "locale": null
+    },
+    {
       "documentId": "okn6v76uyaeiexzpgnb19813",
       "action": "admin::api-tokens.access",
       "actionParameters": {},
