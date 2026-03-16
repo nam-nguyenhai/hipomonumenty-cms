@@ -1,13 +1,13 @@
 {
-  "key": "plugin_content_manager_configuration_content_types::api::recommended-monument.recommended-monument",
+  "key": "plugin_content_manager_configuration_components::shared.open-graph",
   "value": {
     "settings": {
       "bulkable": true,
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "createdAt",
-      "defaultSortBy": "documentId",
+      "mainField": "ogTitle",
+      "defaultSortBy": "ogTitle",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -15,79 +15,76 @@
         "edit": {},
         "list": {
           "label": "id",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "monuments": {
-        "edit": {
-          "label": "monuments",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true,
-          "mainField": "title"
-        },
-        "list": {
-          "label": "monuments",
           "searchable": false,
           "sortable": false
         }
       },
-      "createdAt": {
+      "ogTitle": {
         "edit": {
-          "label": "createdAt",
+          "label": "ogTitle",
           "description": "",
           "placeholder": "",
-          "visible": false,
+          "visible": true,
           "editable": true
         },
         "list": {
-          "label": "createdAt",
+          "label": "ogTitle",
           "searchable": true,
           "sortable": true
         }
       },
-      "updatedAt": {
+      "ogDescription": {
         "edit": {
-          "label": "updatedAt",
+          "label": "ogDescription",
           "description": "",
           "placeholder": "",
-          "visible": false,
+          "visible": true,
           "editable": true
         },
         "list": {
-          "label": "updatedAt",
+          "label": "ogDescription",
           "searchable": true,
           "sortable": true
         }
       },
-      "createdBy": {
+      "ogImage": {
         "edit": {
-          "label": "createdBy",
+          "label": "ogImage",
           "description": "",
           "placeholder": "",
-          "visible": false,
-          "editable": true,
-          "mainField": "firstname"
+          "visible": true,
+          "editable": true
         },
         "list": {
-          "label": "createdBy",
+          "label": "ogImage",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ogUrl": {
+        "edit": {
+          "label": "ogUrl",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ogUrl",
           "searchable": true,
           "sortable": true
         }
       },
-      "updatedBy": {
+      "ogType": {
         "edit": {
-          "label": "updatedBy",
+          "label": "ogType",
           "description": "",
           "placeholder": "",
-          "visible": false,
-          "editable": true,
-          "mainField": "firstname"
+          "visible": true,
+          "editable": true
         },
         "list": {
-          "label": "updatedBy",
+          "label": "ogType",
           "searchable": true,
           "sortable": true
         }
@@ -102,22 +99,43 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "ogTitle",
+        "ogDescription",
+        "ogImage"
+      ],
       "edit": [
         [
           {
-            "name": "monuments",
+            "name": "ogTitle",
+            "size": 6
+          },
+          {
+            "name": "ogDescription",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "ogImage",
+            "size": 6
+          },
+          {
+            "name": "ogUrl",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "ogType",
             "size": 6
           }
         ]
-      ],
-      "list": [
-        "id",
-        "monuments",
-        "createdAt",
-        "updatedAt"
       ]
     },
-    "uid": "api::recommended-monument.recommended-monument"
+    "uid": "shared.open-graph",
+    "isComponent": true
   },
   "type": "object",
   "environment": null,

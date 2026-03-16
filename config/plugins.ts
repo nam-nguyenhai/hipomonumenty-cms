@@ -6,7 +6,7 @@ export default ({ env }) => ({
         singleFile: true,
       },
     },
-    'strapi-import-export': {
+    seo: {
       enabled: true,
     },
 });

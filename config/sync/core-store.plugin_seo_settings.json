@@ -1,0 +1,38 @@
+{
+  "key": "plugin_seo_settings",
+  "value": {
+    "api::monument.monument": {
+      "collectionName": "monument",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "openGraph": false,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": false,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::recommended-monument.recommended-monument": {
+      "collectionName": "recommended-monument",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "openGraph": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

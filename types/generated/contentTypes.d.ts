@@ -521,6 +521,12 @@ export interface ApiMonumentMonument extends Struct.CollectionTypeSchema {
         };
       }>;
     publishedAt: Schema.Attribute.DateTime;
+    seo: Schema.Attribute.Component<'shared.seo', false> &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     shortTitle: Schema.Attribute.String &
       Schema.Attribute.SetPluginOptions<{
         i18n: {

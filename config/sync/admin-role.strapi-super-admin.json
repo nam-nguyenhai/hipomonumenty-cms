@@ -6,7 +6,7 @@
   "locale": null,
   "permissions": [
     {
-      "documentId": "akz4lwc13edcfh778iyg4ej5",
+      "documentId": "o5p9wkom6jw293m0jgqasb49",
       "action": "plugin::content-manager.explorer.create",
       "actionParameters": {},
       "subject": "api::monument.monument",
@@ -26,7 +26,20 @@
           "availableDescription",
           "image",
           "carousel.files",
-          "content"
+          "content",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.openGraph.ogTitle",
+          "seo.openGraph.ogDescription",
+          "seo.openGraph.ogImage",
+          "seo.openGraph.ogUrl",
+          "seo.openGraph.ogType",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seo.structuredData"
         ],
         "locales": [
           "en",
@@ -65,7 +78,7 @@
       "locale": null
     },
     {
-      "documentId": "h07iu8vk0k6vekf5vr3aa5v3",
+      "documentId": "cy4rsunn3kq3sd13dswodobm",
       "action": "plugin::content-manager.explorer.read",
       "actionParameters": {},
       "subject": "api::monument.monument",
@@ -85,7 +98,20 @@
           "availableDescription",
           "image",
           "carousel.files",
-          "content"
+          "content",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.openGraph.ogTitle",
+          "seo.openGraph.ogDescription",
+          "seo.openGraph.ogImage",
+          "seo.openGraph.ogUrl",
+          "seo.openGraph.ogType",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seo.structuredData"
         ],
         "locales": [
           "en",
@@ -96,7 +122,7 @@
       "locale": null
     },
     {
-      "documentId": "tg8zet4ngddp1soih1ov96m1",
+      "documentId": "uxsytnz3dfb9lgn245kef9gl",
       "action": "plugin::content-manager.explorer.update",
       "actionParameters": {},
       "subject": "api::monument.monument",
@@ -116,7 +142,20 @@
           "availableDescription",
           "image",
           "carousel.files",
-          "content"
+          "content",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.openGraph.ogTitle",
+          "seo.openGraph.ogDescription",
+          "seo.openGraph.ogImage",
+          "seo.openGraph.ogUrl",
+          "seo.openGraph.ogType",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seo.structuredData"
         ],
         "locales": [
           "en",
@@ -616,17 +655,8 @@
       "locale": null
     },
     {
-      "documentId": "ln08whlpu3euixc0bb0rdzw9",
-      "action": "plugin::strapi-import-export.export",
-      "actionParameters": {},
-      "subject": null,
-      "properties": {},
-      "conditions": [],
-      "locale": null
-    },
-    {
-      "documentId": "yotgv1cf1w7bj1u2g2nz6cob",
-      "action": "plugin::strapi-import-export.import",
+      "documentId": "ckp5rgbad6p736og3fakiodw",
+      "action": "plugin::seo.read",
       "actionParameters": {},
       "subject": null,
       "properties": {},
