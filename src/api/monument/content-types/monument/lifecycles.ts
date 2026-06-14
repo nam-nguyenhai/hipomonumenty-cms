@@ -13,7 +13,7 @@
  */
 import process from 'node:process';
 
-const DEBOUNCE_MS = 10_000;
+const DEBOUNCE_MS = 60_000;
 let timer: NodeJS.Timeout | null = null;
 
 function scheduleDeploy(reason: string) {
