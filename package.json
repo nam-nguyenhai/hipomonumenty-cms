@@ -19,12 +19,12 @@
     "upgrade:dry": "npx @strapi/upgrade latest --dry"
   },
   "dependencies": {
-    "@_sh/strapi-plugin-ckeditor": "^6.0.3",
+    "@_sh/strapi-plugin-ckeditor": "^7.1.1",
     "@anthropic-ai/sdk": "^0.78.0",
     "@strapi-community/plugin-seo": "^2.1.1",
-    "@strapi/plugin-cloud": "5.29.0",
-    "@strapi/plugin-users-permissions": "5.29.0",
-    "@strapi/strapi": "5.29.0",
+    "@strapi/plugin-cloud": "5.48.0",
+    "@strapi/plugin-users-permissions": "5.48.0",
+    "@strapi/strapi": "5.48.0",
     "dotenv": "^17.2.3",
     "fs-extra": "^10.0.0",
     "mammoth": "^1.11.0",
